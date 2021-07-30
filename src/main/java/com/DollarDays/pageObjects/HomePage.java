@@ -105,117 +105,136 @@ public class HomePage
 		return elementUtils.getWebPageUrl();
 	}	
 
+	//Get text of Signin Icon
 	public String getTextIconSignin()
 	{
 		return elementUtils.getElementText(wbIconSignin);    //return wbIconSignin.getText()
 	}	
 	
+	//click Sign in icon
 	public void clickIconSignin()
 	{
      	elementUtils.performElementClick(wbIconSignin);     //wbIconSignin.click();
 	}		
 	
-
+	//click SignIn link option
 	public void clickSignInLink()
 	{
      	elementUtils.performElementClick(wbSignInLink);
 	}		
 	
+	//click create account link option
 	public void clickCreateAccLink()
 	{
      	elementUtils.performElementClick(wbCreateAccLink);
 	}	
 	
+	//click Help link option
 	public void clickHelpLink()
 	{
      	elementUtils.performElementClick(wbHelpLink);
 	}	
 	
-	
+	//Get text of user name icon 
 	public String getTextAccountNameIcon()
 	{
 		return elementUtils.getElementText(wbAccountNameIcon); //return wbAccountNameIcon.getText()
 	}	
 	
+	//click username Icon
 	public void clickAccountNameIcon()
 	{
      	elementUtils.performElementClick(wbAccountNameIcon);
 	}	
 	
+	//click Accounts link option from userdropdown list
 	public void clickAccountsLink()
 	{
      	elementUtils.performElementClick(wbAccountsLink);
 	}	
 	
+	//click Order History link option from userdropdown list
 	public void clickOrderHistoryLink()
 	{
      	elementUtils.performElementClick(wbOrderHistoryLink);
 	}	
 	
+	//click WishList link option from userdropdown list
 	public void clickWishlistLink()
 	{
      	elementUtils.performElementClick(wbWishlistLink);
 	}	
 	
+	//click Favorites link option from userdropdown list
 	public void clickFavoritesLink()
 	{
      	elementUtils.performElementClick(wbFavoritesLink);
 	}	
 	
+	//click Update Profile link option from userdropdown list
 	public void clickUpdateProfileLink()
 	{
      	elementUtils.performElementClick(wbUpdateProfileLink);
 	}	
 	
+	//click AddressBook link option from userdropdown list
 	public void clickAddressBookLink()
 	{
      	elementUtils.performElementClick(wbAddressBookLink);
 	}	
 	
+	//click Wallet link option from userdropdown list
 	public void clickWalletLink()
 	{
      	elementUtils.performElementClick(wbWalletLink);
 	}	
 	
+	//click Tax Exempt link option from userdropdown list
 	public void clickTaxExemptLink()
 	{
      	elementUtils.performElementClick(wbTaxExemptLink);
 	}	
 	
+	//click Request a Quote link option from userdropdown list
 	public void clickRequestQuoteLink()
 	{
      	elementUtils.performElementClick(wbRequestQuoteLink);
 	}	
 	
+	//click Contact us  link option from userdropdown list
 	public void clickContactUsLink()
 	{
      	elementUtils.performElementClick(wbContactUsLink);
 	}	
 	
+	//click Sign Out link option from userdropdown list
 	public void clickSignOutLink()
 	{
      	elementUtils.performElementClick(wbSignOutLink);
 	}	
 	
+	//Get list of values from the Sign in  or the User Dropdown list based on the user being logged in or not
 	public List<String> getSignInUserDropDownList()
 	{
 
 		return elementUtils.getListofText(wbSigninUserDDlist);
 	}
 	
+	//Get the list of links displayed in the Sign in  or the User Dropdown list based on the user being logged in or not
 	public List<String> getSignInUserDropDownLinksList()
 	{
 		return elementUtils.getListofText(wbSigninUserDDlinks);
 		
 	}	
 	
+	//Get in String Array format ,the list of links  displayed in the Sign in  or the User Dropdown list based on the user being logged in or not
 	public String[] getSignInUserDropDownLinksArray()
 	{
-
 		return elementUtils.getArrayofText(wbSigninUserDDlinks);
 	}
 	
 	
+	//Selecting the SignOut option from user dropdown list to log out of Web application
 	public void signOutOfDD()
 	{
 		clickAccountNameIcon();
@@ -223,6 +242,7 @@ public class HomePage
 		
 	}		
 	
+	//Selecting Sign in option in Signin dropdown list to navigate to login page
 	public void goToLoginPage()
 	{
 		clickAccountNameIcon();

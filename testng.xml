@@ -24,5 +24,11 @@
       		<class  name="com.DollarDays.testCases.LoginDataDriverTest"/> 
         </classes>
    	</test> 
+   	
+   	<test name="Validating My Profile Page">
+    	<classes>
+      		<class  name="com.DollarDays.testCases.MyProfilePageTest"/> 
+        </classes>
+   	</test>
   
 </suite> <!-- Suite -->

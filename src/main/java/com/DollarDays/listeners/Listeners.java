@@ -9,7 +9,6 @@ import org.testng.ITestResult;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-import com.DollarDays.utilities.BaseClass;
 import com.DollarDays.utilities.ScreenshotUtils;
 
 
@@ -40,16 +39,15 @@ public class Listeners implements ITestListener
 		//WebDriver driver =null;
 		try {
 			driver =(WebDriver)result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
-		
-		} catch(Exception e)
+		} 
+		catch(Exception e)
 		{
-			
 			logger.info(e.getMessage());
 		}
 		try {
 			extentTest.get().addScreenCaptureFromPath(screenshotUtils.getScreenShot(testMethodName,driver), result.getMethod().getMethodName());
-		} catch (IOException e) {
-
+		} 
+		catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
@@ -62,27 +60,38 @@ public class Listeners implements ITestListener
 //		WebDriver driver =null;
 		try {
 			driver =(WebDriver)result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
-		
-		} catch(Exception e)
+		} 
+		catch(Exception e)
 		{
-			
 			logger.info(e.getMessage());
 		}
 		try {
-			extentTest.get().addScreenCaptureFromPath(screenshotUtils.getScreenShot(testMethodName,driver), result.getMethod().getMethodName());
-
-			
-		} catch (IOException e) {
-
+			extentTest.get().addScreenCaptureFromPath(screenshotUtils.getScreenShot(testMethodName,driver), result.getMethod().getMethodName());			
+		} 
+		catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
 
 	public void onTestSkipped(ITestResult result) {
-	String testMethodName =result.getMethod().getMethodName();
-	extentTest.get().log(Status.INFO, testMethodName + " Test was Skipped. " + result.getThrowable());
-	extentTest.get().skip(result.getThrowable());
-	logger.warn(testMethodName + " Test was skipped. " + result.getThrowable());	
+		String testMethodName =result.getMethod().getMethodName();
+		extentTest.get().log(Status.INFO, testMethodName + " Test was Skipped. " + result.getThrowable());
+		extentTest.get().skip(result.getThrowable());
+		logger.warn(testMethodName + " Test was skipped. " + result.getThrowable());	
+		//WebDriver driver =null;
+		try {
+			driver =(WebDriver)result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
+		} 
+		catch(Exception e)
+		{
+			logger.info(e.getMessage());
+		}
+		try {
+			extentTest.get().addScreenCaptureFromPath(screenshotUtils.getScreenShot(testMethodName,driver), result.getMethod().getMethodName());
+		} 
+		catch (IOException e) {
+			e.printStackTrace();
+		}	
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
@@ -96,7 +105,6 @@ public class Listeners implements ITestListener
 	}
 
 	public void onFinish(ITestContext context) {
-		// TODO Auto-generated method stub
 		extent.flush();
 	}
 

@@ -1,7 +1,5 @@
 package com.DollarDays.pageObjects;
 
-
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -48,56 +46,67 @@ public class LoginPage
 	@FindBy(linkText="CREATE ACCOUNT")
 	private WebElement wbCreateAcctBtn;
 	
+	//Clears email textbox
 	public void clearEmailTxt() //clears EMail TextBox webelement
 	{
 		elementUtils.clearText(wbEmailTxtBox);           //		wbEmailTxtBox.clear();
 	}	
 	
+	//Clear and Enter text in EMail textbox
 	public void setEmailTxt(String email) //clears and enters text value to  EMail TextBox webelement
 	{
 		elementUtils.enterText(wbEmailTxtBox, email);    //		wbEmailTxtBox.sendKeys(email);
 	}	
 	
+	//Clear Password textbox
 	public void clearPwdTxt()
 	{
 		elementUtils.clearText(wbPwdTxtBox);
 	}	
 	
+	//Clear and Enter text in Password textbox
 	public void setPwdTxt(String pwd)
 	{
 		elementUtils.enterText(wbPwdTxtBox, pwd);
 	}	
 	
+	//returns a String true if field has the attribute 'required' , else returns null
 	public String checkRequiredEmail()
 	{
-		return elementUtils.getElementAttribute(wbEmailTxtBox, "required");//returns a String true if field has the attribute 'required' , else returns null
+		return elementUtils.getElementAttribute(wbEmailTxtBox, "required");
 	}	
 	
+	//returns a String true if field has the attribute 'required' , else returns null
 	public String checkRequiredPwd()
 	{
-		return elementUtils.getElementAttribute(wbPwdTxtBox, "required");//returns a String true if field has the attribute 'required' , else returns null
+		return elementUtils.getElementAttribute(wbPwdTxtBox, "required");
 	}	
 	
+	//Click Sign in Button
 	public void clickSignInBtn()
 	{
 		elementUtils.performElementClickReturn(wbSigninBtn);           //		wbSigninBtn.sendKeys(Keys.RETURN);
 	}	
 	
+	//get the text of the Alert box that displays error message when user enters a invalid email/password combination
 	public String getAlertTxt()
 	{
 		return elementUtils.getElementText(wbAlertLbl);
 	}
 	
+	//Close the Alert box that displays error message when user enters a invalid email/password combination
 	public void clickAlertX()
 	{
 		elementUtils.performElementClick(wbAlertX);
 	}	
 	
+	//Click Forgot youremail or password Link
 	public void clickForgotLink()
 	{
 		elementUtils.performElementClick(wbForgotlink);
 	}	
 	
+	//Click Create Account button
 	public void clickCreateAcctBtn()
 	{
 		elementUtils.performElementClick(wbCreateAcctBtn);
