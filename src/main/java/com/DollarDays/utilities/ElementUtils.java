@@ -2,7 +2,6 @@ package com.DollarDays.utilities;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Keys;
@@ -31,8 +30,8 @@ public class ElementUtils
 		catch(Exception  e)
 		{		
 			//logger.warn(e.getMessage());
-			System.out.println(e.getClass().getSimpleName() + "  " + wb.toString() +   " This WebElement is not present/displayed. "  );
-			logger.warn(e.getClass().getSimpleName() + "  " + wb.toString() +   " This WebElement is not present/displayed. ");
+			System.out.println(e.getClass().getSimpleName() + "  " + wb.toString() +   " This WebElement is not present/displayed!!! "  );
+			logger.warn(e.getClass().getSimpleName() + "  " + wb.toString() +   " This WebElement is not present/displayed!!!");
 			displayed=false;
 		}
 		return displayed;		
@@ -69,7 +68,7 @@ public class ElementUtils
 		}
 	}
 	
-	//To do click on a webelement
+	//To do click on a webelement by using sendKeys(Keys.RETURN)
 	public void performElementClickReturn(WebElement wb)
 	{
 		if(isElementClickable(wb))
@@ -121,7 +120,7 @@ public class ElementUtils
 	}
 	
 	//To check if a  webelement is selected or not
-	public boolean isSelected(WebElement wb)
+	public boolean isElementSelected(WebElement wb)
 	{
 		boolean isSelected=false;
 		if(isElementDisplayed(wb)) 

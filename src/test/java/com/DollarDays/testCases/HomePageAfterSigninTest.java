@@ -209,6 +209,10 @@ public class HomePageAfterSigninTest extends BaseClass
 						Assert.assertTrue(false,"Sign Out link navigation verification failed .   ");
 				   }		    	 
 			break;			
+			
+	        case "":
+				 Assert.assertTrue(false,"UserDropDownLinks list values were not fetched correctly.");
+			break;	
     	}
   
     }

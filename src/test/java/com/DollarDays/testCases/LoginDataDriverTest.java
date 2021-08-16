@@ -12,7 +12,6 @@ import org.testng.annotations.Test;
 import com.DollarDays.pageObjects.HomePage;
 import com.DollarDays.pageObjects.LoginPage;
 import com.DollarDays.utilities.BaseClass;
-import com.DollarDays.utilities.ConstantsUtils;
 import com.DollarDays.utilities.XLUtils;
 
 public class LoginDataDriverTest extends BaseClass 
@@ -100,7 +99,6 @@ public class LoginDataDriverTest extends BaseClass
 					logger.info("Checking if Alert message is displayed when incorrect login or password is entered");
 					String actualAlert   =  lp.getAlertTxt();
 					String expectedAlert =  "Incorrect login and password combination.";
-					//if (actualAlert.equals(ConstantsUtils.LOGINERRORALERT)) 
 					if (actualAlert.equals(expectedAlert))	
 					{
 						Assert.assertTrue(true);
@@ -131,7 +129,7 @@ public class LoginDataDriverTest extends BaseClass
 	public String[][] getData1() throws IOException
 	{	
 		logger.info("Fetching Login data credentials from Excel File.");
-		String fileName = "LoginData.xlsx";
+		String fileName     = "LoginData.xlsx";
 		String sheetName    = "Sheet1";
 		String loginData[][]=XLUtils.getSheetData(fileName,sheetName );
 		//String loginData[][]={};

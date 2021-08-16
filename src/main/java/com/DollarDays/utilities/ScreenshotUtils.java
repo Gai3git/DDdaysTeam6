@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -22,7 +21,7 @@ public class ScreenshotUtils
 	public String getScreenShot(String testCaseName,WebDriver driver) throws IOException
 	{
 		
-		String datetime = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+		String datetime = new SimpleDateFormat("yyyy.MM.dd_HH.mm.ss").format(new Date());//timestamp
 		TakesScreenshot ts=(TakesScreenshot) driver;
 		File source  =ts.getScreenshotAs(OutputType.FILE);
 		String destinationFilename = System.getProperty("user.dir")+"\\Screenshots\\"+testCaseName+ datetime + ".png";
