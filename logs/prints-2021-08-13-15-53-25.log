@@ -1,0 +1,46 @@
+15:52:43.117 [TestNG-tests-1] TRACE io.github.bonigarcia.wdm.cache.CacheHandler - Filter cache by WIN -- input list [C:\Users\madhu\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe] -- output list [C:\Users\madhu\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe] 
+15:52:43.120 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 92.0.4515.107 found in cache
+15:52:43.123 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\madhu\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
+15:52:45.832 [TestNG-tests-2] INFO  DollarDays - Chrome Driver is initialized
+15:52:45.833 [TestNG-tests-2] INFO  DollarDays - Opening the chrome browser and Navigating to Home page of Dollardays
+15:52:46.072 [TestNG-tests-1] INFO  DollarDays - Chrome Driver is initialized
+15:52:46.072 [TestNG-tests-1] INFO  DollarDays - Opening the chrome browser and Navigating to Home page of Dollardays
+15:52:46.089 [TestNG-tests-3] INFO  DollarDays - Chrome Driver is initialized
+15:52:46.089 [TestNG-tests-3] INFO  DollarDays - Opening the chrome browser and Navigating to Home page of Dollardays
+15:52:52.714 [TestNG-tests-1] INFO  DollarDays - Navigated to Homepage of  Dollardays 
+15:52:52.714 [TestNG-tests-1] INFO  DollarDays - Deleting cookies
+15:52:52.755 [TestNG-tests-3] INFO  DollarDays - Navigated to Homepage of  Dollardays 
+15:52:52.755 [TestNG-tests-3] INFO  DollarDays - Deleting cookies
+15:52:52.872 [TestNG-tests-2] INFO  DollarDays - Navigated to Homepage of  Dollardays 
+15:52:52.872 [TestNG-tests-2] INFO  DollarDays - Deleting cookies
+15:52:53.054 [TestNG-tests-1] INFO  DollarDays - Maximize browser window 
+15:52:53.479 [TestNG-tests-2] INFO  DollarDays - Maximize browser window 
+15:52:53.574 [TestNG-tests-1] INFO  DollarDays - TC_Login Test is starting. This testcase verifies user is able to login from home page with valid credentials.
+15:52:53.574 [TestNG-tests-1] DEBUG DollarDays - Refreshing HomePage /Navigating to HomePage
+15:52:53.579 [TestNG-tests-3] INFO  DollarDays - Maximize browser window 
+15:52:54.018 [TestNG-tests-2] INFO  DollarDays - TC_verifyLoginPageTitle Test is starting.  TestCase verifies LoginPage Title is displayed correctly.
+15:52:54.018 [TestNG-tests-2] DEBUG DollarDays - Clicking  SigninIcon and then SignIn option from the DropDown List to navigate to Login Page
+15:52:54.113 [TestNG-tests-3] INFO  DollarDays - Fetching Login data credentials from Excel File.
+15:52:56.024 [TestNG-tests-3] INFO  DollarDays - TC_loginDDT Test is starting. This Testcase checks for logging in functionality using valid and invalid username/password combinations
+15:52:56.161 [TestNG-tests-3] DEBUG DollarDays - Clicking  SigninIcon and then SignIn option from the DropDown List to navigate to Login Page
+15:52:56.872 [TestNG-tests-1] INFO  DollarDays - Logging into Dollardays Website .
+15:52:56.873 [TestNG-tests-1] DEBUG DollarDays - Navigating to Login Page.
+15:53:08.140 [TestNG-tests-2] INFO  DollarDays - Verified loginpage title successfully
+15:53:08.143 [TestNG-tests-2] INFO  DollarDays - TC_verifyLoginPageTitle Test is passed
+15:53:09.355 [TestNG-tests-2] INFO  DollarDays - TC_verifyLoginPageMandatoryfields Test is starting.  TestCase verifies Email Address and Password fields are mandatory in LoginPage.
+15:53:09.770 [TestNG-tests-2] INFO  DollarDays - TC_verifyLoginPageMandatoryfields Test is passed
+15:53:10.648 [TestNG-tests-2] INFO  DollarDays - TC_verifyForgotEmailPasswordLink Test is starting.  TestCase verifies the navigation of Forgot password link .
+15:53:10.648 [TestNG-tests-2] DEBUG DollarDays - Clicking  the link - Forgot your Email or Password in Login Page
+15:53:13.205 [TestNG-tests-2] INFO  DollarDays - Verified Forgot Your Email or Password Link successfully
+15:53:13.206 [TestNG-tests-2] INFO  DollarDays - TC_verifyForgotEmailPasswordLink Test is passed
+15:53:13.210 [TestNG-tests-1] DEBUG DollarDays - Clearing and Entering UserEmail and Password
+15:53:13.842 [TestNG-tests-1] DEBUG DollarDays - Clicking Sign in Button
+15:53:14.130 [TestNG-tests-3] DEBUG DollarDays - Clearing and Entering UserEmail and Password .
+15:53:14.180 [TestNG-tests-2] INFO  DollarDays - TC_verifyCreateAccountButton Test is starting.  TestCase verifies functionality of CreateAccount button .
+15:53:15.592 [TestNG-tests-3] DEBUG DollarDays - Clicking Sign in Button.
+15:53:16.080 [TestNG-tests-2] DEBUG DollarDays - Clicking  the Create Account button in Login Page
+15:53:24.603 [TestNG-tests-1] INFO  DollarDays - Checking if user has signed in to dollardays WebPage
+15:53:24.690 [TestNG-tests-3] INFO  DollarDays - Checking if user has signed in to dollardays WebPage
+15:53:24.854 [TestNG-tests-1] INFO  DollarDays - User is Signed in
+15:53:24.854 [TestNG-tests-1] INFO  DollarDays - Logged in successfully to dollardays WebPage.
+15:53:24.855 [TestNG-tests-1] INFO  DollarDays - TC_Login Test is passed

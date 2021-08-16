@@ -1,0 +1,4 @@
+com\DollarDays\testCases\HomePageAfterSigninTest.class
+com\DollarDays\testCases\LoginPageTest.class
+com\DollarDays\testCases\LoginDataDriverTest.class
+com\DollarDays\testCases\HomePageTest.class

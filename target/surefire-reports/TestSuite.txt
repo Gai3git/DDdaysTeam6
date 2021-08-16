@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 27, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 373.715 s <<< FAILURE! - in TestSuite
+com.DollarDays.testCases.LoginDataDriverTest.TC_loginDDT[user123@gmail.com, pwd2, user 1, Valid](2)  Time elapsed: 3.098 s  <<< FAILURE!
+java.lang.AssertionError: Could not sign in to DollarDays with valid user user123@gmail.com and valid password pwd2. TestCase Failed. expected [true] but found [false]
+	at com.DollarDays.testCases.LoginDataDriverTest.TC_loginDDT(LoginDataDriverTest.java:80)
+
+com.DollarDays.testCases.LoginDataDriverTest.TC_loginDDT[srikanthtesting100@gmail.com, password123, srikanth s., Invalid](8)  Time elapsed: 3.408 s  <<< FAILURE!
+java.lang.AssertionError: Signed  in to DollarDays successfully with invalid user srikanthtesting100@gmail.com and invalid password password123. Testcase failed. expected [false] but found [true]
+	at com.DollarDays.testCases.LoginDataDriverTest.TC_loginDDT(LoginDataDriverTest.java:90)
+
+com.DollarDays.testCases.LoginDataDriverTest.TC_loginDDT[team6testing@gmail.com, password123, gmss t., Valid](9)  Time elapsed: 261.602 s  <<< FAILURE!
+java.lang.AssertionError: Could not sign in to DollarDays with valid user team6testing@gmail.com and valid password password123. TestCase Failed. expected [true] but found [false]
+	at com.DollarDays.testCases.LoginDataDriverTest.TC_loginDDT(LoginDataDriverTest.java:71)
+

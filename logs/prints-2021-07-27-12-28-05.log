@@ -1,0 +1,44 @@
+12:27:35.527 [TestNG-tests-3] DEBUG DollarDays - Clearing and Entering UserEmail and Password .
+12:27:36.143 [TestNG-tests-3] DEBUG DollarDays - Clicking Sign in Button.
+12:27:36.180 [TestNG-tests-2] INFO  DollarDays - Checking if user has signed in to dollardays WebPage
+12:27:36.363 [TestNG-tests-2] INFO  DollarDays - User is Signed in
+12:27:36.363 [TestNG-tests-2] INFO  DollarDays - Signed  in to DollarDays successfully.
+12:27:36.365 [TestNG-tests-2] INFO  DollarDays - TC_logintoDD Test is passed
+12:27:36.913 [TestNG-tests-1] DEBUG DollarDays - Clicking on User Name Icon to view the dropdown list.
+12:27:37.916 [TestNG-tests-1] DEBUG DollarDays - Clicking on Accounts Link in the user dropdown list.
+12:27:38.498 [TestNG-tests-3] INFO  DollarDays - Could not Sign in to DollarDays  with invalid user user4 and invalid password pwd4. 
+12:27:38.499 [TestNG-tests-3] INFO  DollarDays - Checking if Alert message is displayed when incorrect login or password is entered
+12:27:38.619 [TestNG-tests-3] INFO  DollarDays - Alert message is displayed for incorrect login and password combination. Testcase passed.
+12:27:38.934 [TestNG-tests-3] INFO  DollarDays - TC_loginDDT Test is passed
+12:27:39.954 [TestNG-tests-3] INFO  DollarDays - TC_loginDDT Test is starting. This Testcase checks for logging in functionality using valid and invalid username/password combinations
+12:27:39.971 [TestNG-tests-3] DEBUG DollarDays - Clearing and Entering UserEmail and Password .
+12:27:41.230 [TestNG-tests-3] DEBUG DollarDays - Clicking Sign in Button.
+12:27:42.612 [TestNG-tests-3] INFO  DollarDays - Could not Sign in to DollarDays  with invalid user user5 and invalid password . 
+12:27:42.612 [TestNG-tests-3] INFO  DollarDays -  Either Email or Password field or both fields are empty.Couldnt login to website.TestCase passed.
+12:27:42.613 [TestNG-tests-3] INFO  DollarDays - TC_loginDDT Test is passed
+12:27:42.691 [TestNG-tests-1] INFO  DollarDays - Accounts link url verified successfully
+12:27:42.704 [TestNG-tests-1] INFO  DollarDays - TC_verifyUserDropDownUrl Test is passed
+12:27:47.504 [TestNG-tests-3] INFO  DollarDays - TC_loginDDT Test is starting. This Testcase checks for logging in functionality using valid and invalid username/password combinations
+12:27:47.630 [TestNG-tests-3] DEBUG DollarDays - Clearing and Entering UserEmail and Password .
+12:27:51.632 [TestNG-tests-1] INFO  DollarDays - TC_verifyUserDropDownUrl Test is starting. This testcase verifies the the navigation of links displayed in the user list .
+12:27:51.641 [TestNG-tests-1] DEBUG DollarDays - Refreshing HomePage /Navigating to HomePage
+12:27:51.676 [TestNG-tests-3] DEBUG DollarDays - Clicking Sign in Button.
+12:27:52.454 [TestNG-tests-3] INFO  DollarDays - Could not Sign in to DollarDays  with invalid user  and invalid password pwd6. 
+12:27:52.454 [TestNG-tests-3] INFO  DollarDays -  Either Email or Password field or both fields are empty.Couldnt login to website.TestCase passed.
+12:27:52.456 [TestNG-tests-3] INFO  DollarDays - TC_loginDDT Test is passed
+12:27:54.230 [TestNG-tests-2] INFO  DollarDays - WebPage is closed
+12:27:54.716 [TestNG-tests-3] INFO  DollarDays - TC_loginDDT Test is starting. This Testcase checks for logging in functionality using valid and invalid username/password combinations
+12:27:54.743 [TestNG-tests-3] DEBUG DollarDays - Clearing and Entering UserEmail and Password .
+12:27:56.140 [TestNG-tests-3] DEBUG DollarDays - Clicking Sign in Button.
+12:27:56.691 [TestNG-tests-1] DEBUG DollarDays - Clicking on User Name Icon to view the dropdown list.
+12:27:57.421 [TestNG-tests-1] DEBUG DollarDays - Clicking on Order History Link in the user dropdown list
+12:28:00.229 [TestNG-tests-3] INFO  DollarDays - Checking if user has signed in to dollardays WebPage
+12:28:00.762 [TestNG-tests-3] INFO  DollarDays - User is Signed in
+12:28:00.763 [TestNG-tests-3] ERROR DollarDays - TC_loginDDT test failed.  java.lang.AssertionError: Signed  in to DollarDays successfully with invalid user srikanthtesting100@gmail.com and invalid password password123. Testcase failed. expected [false] but found [true]
+12:28:02.258 [TestNG-tests-1] INFO  DollarDays - Order History link url verified successfully.
+12:28:02.259 [TestNG-tests-1] INFO  DollarDays - TC_verifyUserDropDownUrl Test is passed
+12:28:03.111 [TestNG-tests-1] INFO  DollarDays - TC_verifyUserDropDownUrl Test is starting. This testcase verifies the the navigation of links displayed in the user list .
+12:28:03.111 [TestNG-tests-1] DEBUG DollarDays - Refreshing HomePage /Navigating to HomePage
+12:28:04.027 [TestNG-tests-3] INFO  DollarDays - TC_loginDDT Test is starting. This Testcase checks for logging in functionality using valid and invalid username/password combinations
+12:28:04.438 [TestNG-tests-3] DEBUG DollarDays -  Invoke Signout from Homepage by clicking  SigninIcon and then Sign Out option from the DropDown List
+12:28:04.639 [TestNG-tests-1] DEBUG DollarDays - Clicking on User Name Icon to view the dropdown list.

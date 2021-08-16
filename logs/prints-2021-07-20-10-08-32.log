@@ -1,0 +1,31 @@
+10:08:04.322 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+10:08:04.335 [TestNG-tests-3] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=91 in cache (valid until 11:07:53 20/07/2021 PDT)
+10:08:04.336 [TestNG-tests-3] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome91=91.0.4472.101 in cache (valid until 10:07:53 21/07/2021 PDT)
+10:08:04.336 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+10:08:04.338 [TestNG-tests-3] TRACE io.github.bonigarcia.wdm.cache.CacheHandler - Checking if chromedriver exists in cache
+10:08:04.341 [TestNG-tests-3] TRACE io.github.bonigarcia.wdm.cache.CacheHandler - Filter cache by chromedriver -- input list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe, C:\Users\madhu\.cache\selenium\resolution.properties] -- output list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe] 
+10:08:04.341 [TestNG-tests-3] TRACE io.github.bonigarcia.wdm.cache.CacheHandler - Filter cache by 91.0.4472.101 -- input list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe] -- output list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe] 
+10:08:04.341 [TestNG-tests-3] TRACE io.github.bonigarcia.wdm.cache.CacheHandler - Filter cache by WIN -- input list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe] -- output list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe] 
+10:08:04.341 [TestNG-tests-3] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 91.0.4472.101 found in cache
+10:08:04.342 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+10:08:04.354 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=91 in cache (valid until 11:07:53 20/07/2021 PDT)
+10:08:04.356 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome91=91.0.4472.101 in cache (valid until 10:07:53 21/07/2021 PDT)
+10:08:04.356 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+10:08:04.358 [TestNG-tests-1] TRACE io.github.bonigarcia.wdm.cache.CacheHandler - Checking if chromedriver exists in cache
+10:08:04.360 [TestNG-tests-1] TRACE io.github.bonigarcia.wdm.cache.CacheHandler - Filter cache by chromedriver -- input list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe, C:\Users\madhu\.cache\selenium\resolution.properties] -- output list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe] 
+10:08:04.360 [TestNG-tests-1] TRACE io.github.bonigarcia.wdm.cache.CacheHandler - Filter cache by 91.0.4472.101 -- input list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe] -- output list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe] 
+10:08:04.360 [TestNG-tests-1] TRACE io.github.bonigarcia.wdm.cache.CacheHandler - Filter cache by WIN -- input list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe] -- output list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe] 
+10:08:04.360 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 91.0.4472.101 found in cache
+10:08:04.362 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+10:08:11.678 [TestNG-tests-2] INFO  DollarDays - Chrome Driver is initialized
+10:08:11.678 [TestNG-tests-2] INFO  DollarDays - Opening the chrome browser and Navigating to Home page of Dollardays
+10:08:11.858 [TestNG-tests-3] INFO  DollarDays - Chrome Driver is initialized
+10:08:11.858 [TestNG-tests-3] INFO  DollarDays - Opening the chrome browser and Navigating to Home page of Dollardays
+10:08:11.914 [TestNG-tests-1] INFO  DollarDays - Chrome Driver is initialized
+10:08:11.914 [TestNG-tests-1] INFO  DollarDays - Opening the chrome browser and Navigating to Home page of Dollardays
+10:08:22.547 [TestNG-tests-3] INFO  DollarDays - Navigated to Homepage of  Dollardays 
+10:08:22.547 [TestNG-tests-3] INFO  DollarDays - Deleting cookies
+10:08:22.589 [TestNG-tests-1] INFO  DollarDays - Navigated to Homepage of  Dollardays 
+10:08:22.589 [TestNG-tests-1] INFO  DollarDays - Deleting cookies
+10:08:31.599 [TestNG-tests-2] INFO  DollarDays - Navigated to Homepage of  Dollardays 
+10:08:31.599 [TestNG-tests-2] INFO  DollarDays - Deleting cookies

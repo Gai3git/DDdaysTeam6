@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\workspace\DollarDaysTeam6Git\DDdaysTeam6\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods, 3 failed,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.LoginDataDriverTest" hash-for-method="TC_loginDDT(team6testing@gmail.com, password123, gmss t., Valid)">TC_loginDDT(team6testing@gmail.com, password123, gmss t., Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.LoginDataDriverTest" hash-for-method="TC_loginDDT(user123@gmail.com, pwd2, user 1, Valid)">TC_loginDDT(user123@gmail.com, pwd2, user 1, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.LoginDataDriverTest" hash-for-method="TC_loginDDT(srikanthtesting100@gmail.com, password123, srikanth s., Invalid)">TC_loginDDT(srikanthtesting100@gmail.com, password123, srikanth s., Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.HomePageAfterSigninTest" hash-for-method="TC_CheckUserDropDownList">TC_CheckUserDropDownList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.HomePageAfterSigninTest" hash-for-method="TC_Login">TC_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.LoginDataDriverTest" hash-for-method="TC_loginDDT(user3, pwd3, user 3, Invalid)">TC_loginDDT(user3, pwd3, user 3, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.LoginDataDriverTest" hash-for-method="TC_loginDDT(team6testing@gmail.com, password123, gmss t., Valid)">TC_loginDDT(team6testing@gmail.com, password123, gmss t., Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.LoginDataDriverTest" hash-for-method="TC_loginDDT(user4, pwd4, user 4, Invalid)">TC_loginDDT(user4, pwd4, user 4, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.LoginDataDriverTest" hash-for-method="TC_loginDDT(user5, , , Invalid)">TC_loginDDT(user5, , , Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.LoginDataDriverTest" hash-for-method="TC_loginDDT(, , , Invalid)">TC_loginDDT(, , , Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.LoginDataDriverTest" hash-for-method="TC_loginDDT(, pwd6, , Invalid)">TC_loginDDT(, pwd6, , Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.LoginPageTest" hash-for-method="TC_logintoDD">TC_logintoDD</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.LoginPageTest" hash-for-method="TC_verifyCreateAccountButton">TC_verifyCreateAccountButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.LoginPageTest" hash-for-method="TC_verifyForgotEmailPasswordLink">TC_verifyForgotEmailPasswordLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.LoginPageTest" hash-for-method="TC_verifyLoginPageMandatoryfields">TC_verifyLoginPageMandatoryfields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.LoginPageTest" hash-for-method="TC_verifyLoginPageTitle">TC_verifyLoginPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.HomePageAfterSigninTest" hash-for-method="TC_verifyUserDropDownUrl(Request a Quote)">TC_verifyUserDropDownUrl(Request a Quote)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.HomePageAfterSigninTest" hash-for-method="TC_verifyUserDropDownUrl(Accounts)">TC_verifyUserDropDownUrl(Accounts)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.HomePageAfterSigninTest" hash-for-method="TC_verifyUserDropDownUrl(Tax Exempt)">TC_verifyUserDropDownUrl(Tax Exempt)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.HomePageAfterSigninTest" hash-for-method="TC_verifyUserDropDownUrl(Address Book)">TC_verifyUserDropDownUrl(Address Book)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.HomePageAfterSigninTest" hash-for-method="TC_verifyUserDropDownUrl(Contact Us)">TC_verifyUserDropDownUrl(Contact Us)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.HomePageAfterSigninTest" hash-for-method="TC_verifyUserDropDownUrl(Wallet)">TC_verifyUserDropDownUrl(Wallet)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.HomePageAfterSigninTest" hash-for-method="TC_verifyUserDropDownUrl(Sign Out)">TC_verifyUserDropDownUrl(Sign Out)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.HomePageAfterSigninTest" hash-for-method="TC_verifyUserDropDownUrl(Order History)">TC_verifyUserDropDownUrl(Order History)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.HomePageAfterSigninTest" hash-for-method="TC_verifyUserDropDownUrl(Update Profile)">TC_verifyUserDropDownUrl(Update Profile)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.HomePageAfterSigninTest" hash-for-method="TC_verifyUserDropDownUrl(Favorites)">TC_verifyUserDropDownUrl(Favorites)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.DollarDays.testCases.HomePageAfterSigninTest" hash-for-method="TC_verifyUserHomePageTitle">TC_verifyUserHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.DollarDays.testCases.LoginDataDriverTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_loginDDT(team6testing@gmail.com, password123, gmss t., Valid)">
+                  </a> <!-- TC_loginDDT(team6testing@gmail.com, password123, gmss t., Valid) -->
+                  <span class="method-name">TC_loginDDT</span>
+                  <span class="parameters">(team6testing@gmail.com, password123, gmss t., Valid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Could not sign in to DollarDays with valid user team6testing@gmail.com and valid password password123. TestCase Failed. expected [true] but found [false]
+	at com.DollarDays.testCases.LoginDataDriverTest.TC_loginDDT(LoginDataDriverTest.java:71)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(This Testcase checks for logging in functionality using valid and invalid username/password combinations)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_loginDDT(user123@gmail.com, pwd2, user 1, Valid)">
+                  </a> <!-- TC_loginDDT(user123@gmail.com, pwd2, user 1, Valid) -->
+                  <span class="method-name">TC_loginDDT</span>
+                  <span class="parameters">(user123@gmail.com, pwd2, user 1, Valid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Could not sign in to DollarDays with valid user user123@gmail.com and valid password pwd2. TestCase Failed. expected [true] but found [false]
+	at com.DollarDays.testCases.LoginDataDriverTest.TC_loginDDT(LoginDataDriverTest.java:80)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(This Testcase checks for logging in functionality using valid and invalid username/password combinations)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_loginDDT(srikanthtesting100@gmail.com, password123, srikanth s., Invalid)">
+                  </a> <!-- TC_loginDDT(srikanthtesting100@gmail.com, password123, srikanth s., Invalid) -->
+                  <span class="method-name">TC_loginDDT</span>
+                  <span class="parameters">(srikanthtesting100@gmail.com, password123, srikanth s., Invalid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Signed  in to DollarDays successfully with invalid user srikanthtesting100@gmail.com and invalid password password123. Testcase failed. expected [false] but found [true]
+	at com.DollarDays.testCases.LoginDataDriverTest.TC_loginDDT(LoginDataDriverTest.java:90)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(This Testcase checks for logging in functionality using valid and invalid username/password combinations)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.DollarDays.testCases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_logintoDD">
+                  </a> <!-- TC_logintoDD -->
+                  <span class="method-name">TC_logintoDD</span>
+                  <em>
+(Testcase checks if the user is able to login successfully with valid username/password combination)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_verifyCreateAccountButton">
+                  </a> <!-- TC_verifyCreateAccountButton -->
+                  <span class="method-name">TC_verifyCreateAccountButton</span>
+                  <em>
+( TestCase verifies functionality of CreateAccount button .)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_verifyForgotEmailPasswordLink">
+                  </a> <!-- TC_verifyForgotEmailPasswordLink -->
+                  <span class="method-name">TC_verifyForgotEmailPasswordLink</span>
+                  <em>
+( TestCase verifies the navigation of Forgot password link .)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_verifyLoginPageMandatoryfields">
+                  </a> <!-- TC_verifyLoginPageMandatoryfields -->
+                  <span class="method-name">TC_verifyLoginPageMandatoryfields</span>
+                  <em>
+( TestCase verifies Email Address and Password fields are mandatory in LoginPage.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_verifyLoginPageTitle">
+                  </a> <!-- TC_verifyLoginPageTitle -->
+                  <span class="method-name">TC_verifyLoginPageTitle</span>
+                  <em>
+( TestCase verifies LoginPage Title is displayed correctly.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.DollarDays.testCases.HomePageAfterSigninTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_CheckUserDropDownList">
+                  </a> <!-- TC_CheckUserDropDownList -->
+                  <span class="method-name">TC_CheckUserDropDownList</span>
+                  <em>
+(This testcase verifies the user dropdown list displays expected values.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_Login">
+                  </a> <!-- TC_Login -->
+                  <span class="method-name">TC_Login</span>
+                  <em>
+(This testcase verifies user is able to login from home page with valid credentials.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_verifyUserDropDownUrl(Request a Quote)">
+                  </a> <!-- TC_verifyUserDropDownUrl(Request a Quote) -->
+                  <span class="method-name">TC_verifyUserDropDownUrl</span>
+                  <span class="parameters">(Request a Quote)</span>
+                  <em>
+(This testcase verifies the the navigation of links displayed in the user list .)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_verifyUserDropDownUrl(Accounts)">
+                  </a> <!-- TC_verifyUserDropDownUrl(Accounts) -->
+                  <span class="method-name">TC_verifyUserDropDownUrl</span>
+                  <span class="parameters">(Accounts)</span>
+                  <em>
+(This testcase verifies the the navigation of links displayed in the user list .)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_verifyUserDropDownUrl(Tax Exempt)">
+                  </a> <!-- TC_verifyUserDropDownUrl(Tax Exempt) -->
+                  <span class="method-name">TC_verifyUserDropDownUrl</span>
+                  <span class="parameters">(Tax Exempt)</span>
+                  <em>
+(This testcase verifies the the navigation of links displayed in the user list .)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_verifyUserDropDownUrl(Address Book)">
+                  </a> <!-- TC_verifyUserDropDownUrl(Address Book) -->
+                  <span class="method-name">TC_verifyUserDropDownUrl</span>
+                  <span class="parameters">(Address Book)</span>
+                  <em>
+(This testcase verifies the the navigation of links displayed in the user list .)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_verifyUserDropDownUrl(Contact Us)">
+                  </a> <!-- TC_verifyUserDropDownUrl(Contact Us) -->
+                  <span class="method-name">TC_verifyUserDropDownUrl</span>
+                  <span class="parameters">(Contact Us)</span>
+                  <em>
+(This testcase verifies the the navigation of links displayed in the user list .)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_verifyUserDropDownUrl(Wallet)">
+                  </a> <!-- TC_verifyUserDropDownUrl(Wallet) -->
+                  <span class="method-name">TC_verifyUserDropDownUrl</span>
+                  <span class="parameters">(Wallet)</span>
+                  <em>
+(This testcase verifies the the navigation of links displayed in the user list .)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_verifyUserDropDownUrl(Sign Out)">
+                  </a> <!-- TC_verifyUserDropDownUrl(Sign Out) -->
+                  <span class="method-name">TC_verifyUserDropDownUrl</span>
+                  <span class="parameters">(Sign Out)</span>
+                  <em>
+(This testcase verifies the the navigation of links displayed in the user list .)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_verifyUserDropDownUrl(Order History)">
+                  </a> <!-- TC_verifyUserDropDownUrl(Order History) -->
+                  <span class="method-name">TC_verifyUserDropDownUrl</span>
+                  <span class="parameters">(Order History)</span>
+                  <em>
+(This testcase verifies the the navigation of links displayed in the user list .)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_verifyUserDropDownUrl(Update Profile)">
+                  </a> <!-- TC_verifyUserDropDownUrl(Update Profile) -->
+                  <span class="method-name">TC_verifyUserDropDownUrl</span>
+                  <span class="parameters">(Update Profile)</span>
+                  <em>
+(This testcase verifies the the navigation of links displayed in the user list .)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_verifyUserDropDownUrl(Favorites)">
+                  </a> <!-- TC_verifyUserDropDownUrl(Favorites) -->
+                  <span class="method-name">TC_verifyUserDropDownUrl</span>
+                  <span class="parameters">(Favorites)</span>
+                  <em>
+(This testcase verifies the the navigation of links displayed in the user list .)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_verifyUserHomePageTitle">
+                  </a> <!-- TC_verifyUserHomePageTitle -->
+                  <span class="method-name">TC_verifyUserHomePageTitle</span>
+                  <em>
+(This testcase verifies the Home Page Title is correct after user signs in.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.DollarDays.testCases.LoginDataDriverTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_loginDDT(user3, pwd3, user 3, Invalid)">
+                  </a> <!-- TC_loginDDT(user3, pwd3, user 3, Invalid) -->
+                  <span class="method-name">TC_loginDDT</span>
+                  <span class="parameters">(user3, pwd3, user 3, Invalid)</span>
+                  <em>
+(This Testcase checks for logging in functionality using valid and invalid username/password combinations)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_loginDDT(team6testing@gmail.com, password123, gmss t., Valid)">
+                  </a> <!-- TC_loginDDT(team6testing@gmail.com, password123, gmss t., Valid) -->
+                  <span class="method-name">TC_loginDDT</span>
+                  <span class="parameters">(team6testing@gmail.com, password123, gmss t., Valid)</span>
+                  <em>
+(This Testcase checks for logging in functionality using valid and invalid username/password combinations)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_loginDDT(user4, pwd4, user 4, Invalid)">
+                  </a> <!-- TC_loginDDT(user4, pwd4, user 4, Invalid) -->
+                  <span class="method-name">TC_loginDDT</span>
+                  <span class="parameters">(user4, pwd4, user 4, Invalid)</span>
+                  <em>
+(This Testcase checks for logging in functionality using valid and invalid username/password combinations)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_loginDDT(user5, , , Invalid)">
+                  </a> <!-- TC_loginDDT(user5, , , Invalid) -->
+                  <span class="method-name">TC_loginDDT</span>
+                  <span class="parameters">(user5, , , Invalid)</span>
+                  <em>
+(This Testcase checks for logging in functionality using valid and invalid username/password combinations)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_loginDDT(, , , Invalid)">
+                  </a> <!-- TC_loginDDT(, , , Invalid) -->
+                  <span class="method-name">TC_loginDDT</span>
+                  <span class="parameters">(, , , Invalid)</span>
+                  <em>
+(This Testcase checks for logging in functionality using valid and invalid username/password combinations)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_loginDDT(, pwd6, , Invalid)">
+                  </a> <!-- TC_loginDDT(, pwd6, , Invalid) -->
+                  <span class="method-name">TC_loginDDT</span>
+                  <span class="parameters">(, pwd6, , Invalid)</span>
+                  <em>
+(This Testcase checks for logging in functionality using valid and invalid username/password combinations)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\workspace\DollarDaysTeam6Git\DDdaysTeam6\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.DollarDays.listeners.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Validating homePage After User is Signed in &quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.DollarDays.testCases.HomePageAfterSigninTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validating homePage After User is Signed in  --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Validating User login&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.DollarDays.testCases.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validating User login --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Validating User login datadriven&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.DollarDays.testCases.LoginDataDriverTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validating User login datadriven --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Validating homePage After User is Signed in  (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Validating User login (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Validating User login datadriven (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_loginDDT')
+data.setCell(0, 2, 'com.DollarDays.testCases.LoginDataDriverTest')
+data.setCell(0, 3, 305787);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_loginDDT')
+data.setCell(1, 2, 'com.DollarDays.testCases.LoginDataDriverTest')
+data.setCell(1, 3, 33370);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_Login')
+data.setCell(2, 2, 'com.DollarDays.testCases.HomePageAfterSigninTest')
+data.setCell(2, 3, 31346);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_loginDDT')
+data.setCell(3, 2, 'com.DollarDays.testCases.LoginDataDriverTest')
+data.setCell(3, 3, 29388);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_logintoDD')
+data.setCell(4, 2, 'com.DollarDays.testCases.LoginPageTest')
+data.setCell(4, 3, 20354);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_verifyUserDropDownUrl')
+data.setCell(5, 2, 'com.DollarDays.testCases.HomePageAfterSigninTest')
+data.setCell(5, 3, 14763);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_verifyLoginPageTitle')
+data.setCell(6, 2, 'com.DollarDays.testCases.LoginPageTest')
+data.setCell(6, 3, 14124);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC_verifyUserDropDownUrl')
+data.setCell(7, 2, 'com.DollarDays.testCases.HomePageAfterSigninTest')
+data.setCell(7, 3, 13227);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC_verifyUserDropDownUrl')
+data.setCell(8, 2, 'com.DollarDays.testCases.HomePageAfterSigninTest')
+data.setCell(8, 3, 12684);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC_verifyCreateAccountButton')
+data.setCell(9, 2, 'com.DollarDays.testCases.LoginPageTest')
+data.setCell(9, 3, 12028);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC_loginDDT')
+data.setCell(10, 2, 'com.DollarDays.testCases.LoginDataDriverTest')
+data.setCell(10, 3, 10032);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC_CheckUserDropDownList')
+data.setCell(11, 2, 'com.DollarDays.testCases.HomePageAfterSigninTest')
+data.setCell(11, 3, 8816);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TC_verifyUserDropDownUrl')
+data.setCell(12, 2, 'com.DollarDays.testCases.HomePageAfterSigninTest')
+data.setCell(12, 3, 8001);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TC_verifyUserDropDownUrl')
+data.setCell(13, 2, 'com.DollarDays.testCases.HomePageAfterSigninTest')
+data.setCell(13, 3, 7375);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TC_verifyUserDropDownUrl')
+data.setCell(14, 2, 'com.DollarDays.testCases.HomePageAfterSigninTest')
+data.setCell(14, 3, 3839);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TC_verifyUserDropDownUrl')
+data.setCell(15, 2, 'com.DollarDays.testCases.HomePageAfterSigninTest')
+data.setCell(15, 3, 3740);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TC_verifyUserDropDownUrl')
+data.setCell(16, 2, 'com.DollarDays.testCases.HomePageAfterSigninTest')
+data.setCell(16, 3, 3486);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TC_verifyUserDropDownUrl')
+data.setCell(17, 2, 'com.DollarDays.testCases.HomePageAfterSigninTest')
+data.setCell(17, 3, 2983);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TC_verifyUserDropDownUrl')
+data.setCell(18, 2, 'com.DollarDays.testCases.HomePageAfterSigninTest')
+data.setCell(18, 3, 2977);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TC_loginDDT')
+data.setCell(19, 2, 'com.DollarDays.testCases.LoginDataDriverTest')
+data.setCell(19, 3, 2955);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TC_verifyForgotEmailPasswordLink')
+data.setCell(20, 2, 'com.DollarDays.testCases.LoginPageTest')
+data.setCell(20, 3, 2558);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TC_loginDDT')
+data.setCell(21, 2, 'com.DollarDays.testCases.LoginDataDriverTest')
+data.setCell(21, 3, 2374);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TC_loginDDT')
+data.setCell(22, 2, 'com.DollarDays.testCases.LoginDataDriverTest')
+data.setCell(22, 3, 1924);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TC_loginDDT')
+data.setCell(23, 2, 'com.DollarDays.testCases.LoginDataDriverTest')
+data.setCell(23, 3, 835);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TC_loginDDT')
+data.setCell(24, 2, 'com.DollarDays.testCases.LoginDataDriverTest')
+data.setCell(24, 3, 508);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TC_verifyLoginPageMandatoryfields')
+data.setCell(25, 2, 'com.DollarDays.testCases.LoginPageTest')
+data.setCell(25, 3, 427);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'TC_verifyUserHomePageTitle')
+data.setCell(26, 2, 'com.DollarDays.testCases.HomePageAfterSigninTest')
+data.setCell(26, 3, 15);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DollarDays.testCases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DollarDays.testCases.HomePageAfterSigninTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DollarDays.testCases.LoginDataDriverTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DollarDays.testCases.HomePageAfterSigninTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_Login</span>
+                <span class="method-start">11279 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DollarDays.testCases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_verifyLoginPageTitle</span>
+                <span class="method-start">11787 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DollarDays.testCases.LoginDataDriverTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_loginDDT(team6testing@gmail.com, password123, gmss t., Valid)</span>
+                <span class="method-start">13793 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DollarDays.testCases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_verifyLoginPageMandatoryfields</span>
+                <span class="method-start">27113 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_verifyForgotEmailPasswordLink</span>
+                <span class="method-start">28418 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_verifyCreateAccountButton</span>
+                <span class="method-start">31950 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_logintoDD</span>
+                <span class="method-start">44750 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DollarDays.testCases.LoginDataDriverTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_loginDDT(user123@gmail.com, pwd2, user 1, Valid)</span>
+                <span class="method-start">46127 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DollarDays.testCases.HomePageAfterSigninTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_verifyUserHomePageTitle</span>
+                <span class="method-start">46163 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_CheckUserDropDownList</span>
+                <span class="method-start">51476 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_verifyUserDropDownUrl(Accounts)</span>
+                <span class="method-start">66193 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DollarDays.testCases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">77870 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DollarDays.testCases.LoginDataDriverTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_loginDDT(user3, pwd3, user 3, Invalid)</span>
+                <span class="method-start">80132 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DollarDays.testCases.HomePageAfterSigninTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_verifyUserDropDownUrl(Order History)</span>
+                <span class="method-start">82369 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DollarDays.testCases.LoginDataDriverTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_loginDDT(, , , Invalid)</span>
+                <span class="method-start">90591 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_loginDDT(user4, pwd4, user 4, Invalid)</span>
+                <span class="method-start">93761 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DollarDays.testCases.HomePageAfterSigninTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_verifyUserDropDownUrl(Favorites)</span>
+                <span class="method-start">96688 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DollarDays.testCases.LoginDataDriverTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_loginDDT(user5, , , Invalid)</span>
+                <span class="method-start">97020 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_loginDDT(, pwd6, , Invalid)</span>
+                <span class="method-start">98962 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_loginDDT(srikanthtesting100@gmail.com, password123, srikanth s., Invalid)</span>
+                <span class="method-start">100254 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DollarDays.testCases.HomePageAfterSigninTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_verifyUserDropDownUrl(Update Profile)</span>
+                <span class="method-start">110147 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DollarDays.testCases.LoginDataDriverTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_loginDDT(team6testing@gmail.com, password123, gmss t., Valid)</span>
+                <span class="method-start">112588 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DollarDays.testCases.HomePageAfterSigninTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_verifyUserDropDownUrl(Address Book)</span>
+                <span class="method-start">114808 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_verifyUserDropDownUrl(Wallet)</span>
+                <span class="method-start">127131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_verifyUserDropDownUrl(Tax Exempt)</span>
+                <span class="method-start">131273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_verifyUserDropDownUrl(Request a Quote)</span>
+                <span class="method-start">137662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_verifyUserDropDownUrl(Contact Us)</span>
+                <span class="method-start">146691 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_verifyUserDropDownUrl(Sign Out)</span>
+                <span class="method-start">155801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">165591 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DollarDays.testCases.LoginDataDriverTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">419845 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,47 @@
+12:25:45.049 [TestNG-tests-1] INFO  DollarDays - Opening the chrome browser and Navigating to Home page of Dollardays
+12:25:45.105 [TestNG-tests-2] INFO  DollarDays - Chrome Driver is initialized
+12:25:45.105 [TestNG-tests-2] INFO  DollarDays - Opening the chrome browser and Navigating to Home page of Dollardays
+12:25:45.318 [TestNG-tests-3] INFO  DollarDays - Chrome Driver is initialized
+12:25:45.318 [TestNG-tests-3] INFO  DollarDays - Opening the chrome browser and Navigating to Home page of Dollardays
+12:26:01.286 [TestNG-tests-3] INFO  DollarDays - Navigated to Homepage of  Dollardays 
+12:26:01.286 [TestNG-tests-3] INFO  DollarDays - Deleting cookies
+12:26:03.985 [TestNG-tests-2] INFO  DollarDays - Navigated to Homepage of  Dollardays 
+12:26:03.986 [TestNG-tests-2] INFO  DollarDays - Deleting cookies
+12:26:04.436 [TestNG-tests-2] INFO  DollarDays - Maximize browser window 
+12:26:05.057 [TestNG-tests-2] INFO  DollarDays - TC_verifyLoginPageTitle Test is starting.  TestCase verifies LoginPage Title is displayed correctly.
+12:26:05.057 [TestNG-tests-2] DEBUG DollarDays - Clicking  SigninIcon and then SignIn option from the DropDown List to navigate to Login Page
+12:26:09.256 [TestNG-tests-3] INFO  DollarDays - Maximize browser window 
+12:26:09.752 [TestNG-tests-3] INFO  DollarDays - Fetching Login data credentials from Excel File.
+12:26:11.676 [TestNG-tests-3] INFO  DollarDays - TC_loginDDT Test is starting. This Testcase checks for logging in functionality using valid and invalid username/password combinations
+12:26:11.717 [TestNG-tests-3] DEBUG DollarDays - Clicking  SigninIcon and then SignIn option from the DropDown List to navigate to Login Page
+12:26:13.122 [TestNG-tests-1] INFO  DollarDays - Navigated to Homepage of  Dollardays 
+12:26:13.122 [TestNG-tests-1] INFO  DollarDays - Deleting cookies
+12:26:20.098 [TestNG-tests-1] INFO  DollarDays - Maximize browser window 
+12:26:20.478 [TestNG-tests-1] INFO  DollarDays - TC_Login Test is starting. This testcase verifies user is able to login from home page with valid credentials.
+12:26:20.478 [TestNG-tests-1] DEBUG DollarDays - Refreshing HomePage /Navigating to HomePage
+12:26:22.558 [TestNG-tests-2] INFO  DollarDays - Verified loginpage title successfully
+12:26:22.561 [TestNG-tests-2] INFO  DollarDays - TC_verifyLoginPageTitle Test is passed
+12:26:30.358 [TestNG-tests-2] INFO  DollarDays - TC_verifyLoginPageMandatoryfields Test is starting.  TestCase verifies Email Address and Password fields are mandatory in LoginPage.
+12:26:30.951 [TestNG-tests-2] INFO  DollarDays - TC_verifyLoginPageMandatoryfields Test is passed
+12:26:32.047 [TestNG-tests-2] INFO  DollarDays - TC_verifyForgotEmailPasswordLink Test is starting.  TestCase verifies the navigation of Forgot password link .
+12:26:32.047 [TestNG-tests-2] DEBUG DollarDays - Clicking  the link - Forgot your Email or Password in Login Page
+12:26:35.333 [TestNG-tests-3] DEBUG DollarDays - Clearing and Entering UserEmail and Password .
+12:26:36.351 [TestNG-tests-3] DEBUG DollarDays - Clicking Sign in Button.
+12:26:39.819 [TestNG-tests-3] INFO  DollarDays - Checking if user has signed in to dollardays WebPage
+12:26:39.992 [TestNG-tests-3] INFO  DollarDays - User is Signed in
+12:26:39.993 [TestNG-tests-3] INFO  DollarDays - Signed in to DollarDays successfully with valid user team6testing@gmail.com and valid password password123. Testcase Passed.
+12:26:40.416 [TestNG-tests-3] INFO  DollarDays - TC_loginDDT Test is passed
+12:26:44.820 [TestNG-tests-3] INFO  DollarDays - TC_loginDDT Test is starting. This Testcase checks for logging in functionality using valid and invalid username/password combinations
+12:26:44.919 [TestNG-tests-3] DEBUG DollarDays -  Invoke Signout from Homepage by clicking  SigninIcon and then Sign Out option from the DropDown List
+12:26:45.792 [TestNG-tests-1] INFO  DollarDays - Logging into Dollardays Website .
+12:26:45.793 [TestNG-tests-1] DEBUG DollarDays - Navigating to Login Page.
+12:26:50.209 [TestNG-tests-2] INFO  DollarDays - Verified Forgot Your Email or Password Link successfully
+12:26:50.210 [TestNG-tests-2] INFO  DollarDays - TC_verifyForgotEmailPasswordLink Test is passed
+12:26:51.272 [TestNG-tests-2] INFO  DollarDays - TC_verifyCreateAccountButton Test is starting.  TestCase verifies functionality of CreateAccount button .
+12:27:03.228 [TestNG-tests-1] DEBUG DollarDays - Clearing and Entering UserEmail and Password
+12:27:04.282 [TestNG-tests-1] DEBUG DollarDays - Clicking Sign in Button
+12:27:07.608 [TestNG-tests-3] DEBUG DollarDays - Clicking  SigninIcon and then SignIn option from the DropDown List to navigate to Login Page
+12:27:07.947 [TestNG-tests-1] INFO  DollarDays - Checking if user has signed in to dollardays WebPage
+12:27:08.534 [TestNG-tests-1] INFO  DollarDays - User is Signed in
+12:27:08.534 [TestNG-tests-1] INFO  DollarDays - Logged in successfully to dollardays WebPage.
+12:27:08.535 [TestNG-tests-1] INFO  DollarDays - TC_Login Test is passed

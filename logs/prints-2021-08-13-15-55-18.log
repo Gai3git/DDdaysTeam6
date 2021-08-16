@@ -1,0 +1,44 @@
+15:54:24.209 [TestNG-tests-3] DEBUG DollarDays - Clicking Sign in Button.
+15:54:31.601 [TestNG-tests-1] INFO  DollarDays - Favorites link url verified successfully.
+15:54:31.602 [TestNG-tests-1] INFO  DollarDays - TC_verifyUserDropDownUrl Test is passed
+15:54:32.296 [TestNG-tests-3] INFO  DollarDays - Checking if user has signed in to dollardays WebPage
+15:54:32.378 [TestNG-tests-1] INFO  DollarDays - TC_verifyUserDropDownUrl Test is starting. This testcase verifies the the navigation of links displayed in the user list .
+15:54:32.378 [TestNG-tests-1] DEBUG DollarDays - Refreshing HomePage /Navigating to HomePage
+15:54:32.515 [TestNG-tests-3] INFO  DollarDays - User is Signed in
+15:54:32.516 [TestNG-tests-3] ERROR DollarDays - TC_loginDDT test failed.  java.lang.AssertionError: Signed  in to DollarDays successfully with invalid user srikanthtesting100@gmail.com and invalid password password123. Testcase failed. expected [false] but found [true]
+15:54:33.479 [TestNG-tests-1] DEBUG DollarDays - Clicking on User Name Icon to view the dropdown list.
+15:54:33.873 [TestNG-tests-1] DEBUG DollarDays - Clicking on Update Profile Link in the user dropdown list.
+15:54:34.817 [TestNG-tests-3] INFO  DollarDays - TC_loginDDT Test is starting. This Testcase checks for logging in functionality using valid and invalid username/password combinations
+15:54:35.121 [TestNG-tests-3] DEBUG DollarDays -  Invoke Signout from Homepage by clicking  SigninIcon and then Sign Out option from the DropDown List
+15:54:36.215 [TestNG-tests-1] INFO  DollarDays - Update Profile link url verified successfully.
+15:54:36.216 [TestNG-tests-1] INFO  DollarDays - TC_verifyUserDropDownUrl Test is passed
+15:54:37.038 [TestNG-tests-1] INFO  DollarDays - TC_verifyUserDropDownUrl Test is starting. This testcase verifies the the navigation of links displayed in the user list .
+15:54:37.038 [TestNG-tests-1] DEBUG DollarDays - Refreshing HomePage /Navigating to HomePage
+15:54:38.090 [TestNG-tests-1] DEBUG DollarDays - Clicking on User Name Icon to view the dropdown list.
+15:54:38.531 [TestNG-tests-1] DEBUG DollarDays - Clicking on Address Book Link in the user dropdown list.
+15:54:40.014 [TestNG-tests-1] INFO  DollarDays - Address Book link url verified successfully.
+15:54:40.015 [TestNG-tests-1] INFO  DollarDays - TC_verifyUserDropDownUrl Test is passed
+15:54:49.361 [TestNG-tests-1] INFO  DollarDays - TC_verifyUserDropDownUrl Test is starting. This testcase verifies the the navigation of links displayed in the user list .
+15:54:49.361 [TestNG-tests-1] DEBUG DollarDays - Refreshing HomePage /Navigating to HomePage
+15:54:50.782 [TestNG-tests-1] DEBUG DollarDays - Clicking on User Name Icon to view the dropdown list.
+15:54:50.993 [TestNG-tests-1] DEBUG DollarDays - Clicking on Wallet Link in the user dropdown list.
+15:54:52.343 [TestNG-tests-1] INFO  DollarDays - Wallet link url verified successfully.
+15:54:52.344 [TestNG-tests-1] INFO  DollarDays - TC_verifyUserDropDownUrl Test is passed
+15:54:53.503 [TestNG-tests-1] INFO  DollarDays - TC_verifyUserDropDownUrl Test is starting. This testcase verifies the the navigation of links displayed in the user list .
+15:54:53.503 [TestNG-tests-1] DEBUG DollarDays - Refreshing HomePage /Navigating to HomePage
+15:54:54.620 [TestNG-tests-1] DEBUG DollarDays - Clicking on User Name Icon to view the dropdown list.
+15:54:55.128 [TestNG-tests-1] DEBUG DollarDays - Clicking on Tax Exempt Link in the user dropdown list.
+15:54:57.242 [TestNG-tests-1] INFO  DollarDays - Tax Exempt link url verified successfully.
+15:54:57.243 [TestNG-tests-1] INFO  DollarDays - TC_verifyUserDropDownUrl Test is passed
+15:54:59.900 [TestNG-tests-1] INFO  DollarDays - TC_verifyUserDropDownUrl Test is starting. This testcase verifies the the navigation of links displayed in the user list .
+15:54:59.901 [TestNG-tests-1] DEBUG DollarDays - Refreshing HomePage /Navigating to HomePage
+15:55:05.492 [TestNG-tests-1] DEBUG DollarDays - Clicking on User Name Icon to view the dropdown list.
+15:55:05.849 [TestNG-tests-1] DEBUG DollarDays - Clicking on Request a Quote Link in the user dropdown list.
+15:55:07.892 [TestNG-tests-1] INFO  DollarDays - Request a Quote link url verified successfully.
+15:55:07.894 [TestNG-tests-1] INFO  DollarDays - TC_verifyUserDropDownUrl Test is passed
+15:55:08.921 [TestNG-tests-1] INFO  DollarDays - TC_verifyUserDropDownUrl Test is starting. This testcase verifies the the navigation of links displayed in the user list .
+15:55:08.921 [TestNG-tests-1] DEBUG DollarDays - Refreshing HomePage /Navigating to HomePage
+15:55:09.981 [TestNG-tests-1] DEBUG DollarDays - Clicking on User Name Icon to view the dropdown list.
+15:55:10.412 [TestNG-tests-1] DEBUG DollarDays - Clicking on Contact Us Link in the user dropdown list.
+15:55:12.406 [TestNG-tests-1] INFO  DollarDays - Contact Us link url verified successfully.
+15:55:12.407 [TestNG-tests-1] INFO  DollarDays - TC_verifyUserDropDownUrl Test is passed

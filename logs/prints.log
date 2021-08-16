@@ -1,0 +1,19 @@
+15:55:18.040 [TestNG-tests-1] INFO  DollarDays - TC_verifyUserDropDownUrl Test is starting. This testcase verifies the the navigation of links displayed in the user list .
+15:55:18.068 [TestNG-tests-1] DEBUG DollarDays - Refreshing HomePage /Navigating to HomePage
+15:55:22.818 [TestNG-tests-1] DEBUG DollarDays - Clicking on User Name Icon to view the dropdown list.
+15:55:23.282 [TestNG-tests-1] DEBUG DollarDays - Clicking on SignOut Link in the user dropdown list.
+15:55:25.403 [TestNG-tests-1] INFO  DollarDays - Sign Out link navigation verified successfully.
+15:55:25.405 [TestNG-tests-1] INFO  DollarDays - TC_verifyUserDropDownUrl Test is passed
+15:55:28.008 [TestNG-tests-1] INFO  DollarDays - WebPage is closed.
+15:55:39.476 [TestNG-tests-3] WARN  DollarDays - NoSuchElementException  Proxy element for: DefaultElementLocator 'By.linkText: Sign Out' This WebElement is not present/displayed. 
+15:55:39.476 [TestNG-tests-3] DEBUG DollarDays - Clicking  SigninIcon and then SignIn option from the DropDown List to navigate to Login Page
+15:56:40.053 [TestNG-tests-3] WARN  DollarDays - NoSuchElementException  Proxy element for: DefaultElementLocator 'By.linkText: Sign In' This WebElement is not present/displayed. 
+15:56:40.054 [TestNG-tests-3] DEBUG DollarDays - Clearing and Entering UserEmail and Password .
+15:57:40.187 [TestNG-tests-3] WARN  DollarDays - NoSuchElementException  Proxy element for: DefaultElementLocator 'By.id: inputLoginUsername' This WebElement is not present/displayed. 
+15:58:40.422 [TestNG-tests-3] WARN  DollarDays - NoSuchElementException  Proxy element for: DefaultElementLocator 'By.id: inputLoginPassword' This WebElement is not present/displayed. 
+15:58:40.423 [TestNG-tests-3] DEBUG DollarDays - Clicking Sign in Button.
+15:59:40.513 [TestNG-tests-3] WARN  DollarDays - NoSuchElementException  Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="aspnetForm"]/div[5]/div/div/div/div[2]/div/div[1]/div/div/div[4]/button' This WebElement is not present/displayed. 
+15:59:40.519 [TestNG-tests-3] INFO  DollarDays - Checking if user has signed in to dollardays WebPage
+15:59:40.604 [TestNG-tests-3] INFO  DollarDays - User is not Signed in
+15:59:40.605 [TestNG-tests-3] ERROR DollarDays - TC_loginDDT test failed.  java.lang.AssertionError: Could not sign in to DollarDays with valid user team6testing@gmail.com and valid password password123. TestCase Failed. expected [true] but found [false]
+15:59:46.241 [TestNG-tests-3] INFO  DollarDays - WebPage is closed

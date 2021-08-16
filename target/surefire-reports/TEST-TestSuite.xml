@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="373.715" tests="27" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\workspace\DollarDaysTeam6Git\DDdaysTeam6\target\test-classes;C:\workspace\DollarDaysTeam6Git\DDdaysTeam6\target\classes;C:\Users\madhu\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\madhu\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\madhu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\madhu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\madhu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\madhu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\madhu\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\madhu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\madhu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\madhu\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\madhu\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\madhu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\madhu\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\madhu\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\madhu\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\madhu\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\madhu\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\madhu\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\madhu\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\madhu\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\madhu\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\madhu\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\madhu\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\madhu\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\madhu\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\madhu\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\madhu\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\madhu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\madhu\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\madhu\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\madhu\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\madhu\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\madhu\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\madhu\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\madhu\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\madhu\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\madhu\.m2\repository\com\aventstack\extentreports\5.0.1\extentreports-5.0.1.jar;C:\Users\madhu\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\madhu\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\madhu\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\madhu\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\madhu\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\madhu\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\madhu\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\madhu\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\madhu\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\madhu\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\madhu\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\madhu\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\madhu\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\madhu\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\madhu\.m2\repository\mysql\mysql-connector-java\8.0.25\mysql-connector-java-8.0.25.jar;C:\Users\madhu\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\madhu\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\madhu\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\madhu\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.14.1\log4j-slf4j-impl-2.14.1.jar;C:\Users\madhu\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\madhu\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\madhu\AppData\Local\Temp\surefire8613692033774575931\surefirebooter2574840768329623646.jar C:\Users\madhu\AppData\Local\Temp\surefire8613692033774575931 2021-07-20T10-23-07_213-jvmRun1 surefire6680120557232368073tmp surefire_09096418780155215930tmp"/>
+    <property name="surefire.test.class.path" value="C:\workspace\DollarDaysTeam6Git\DDdaysTeam6\target\test-classes;C:\workspace\DollarDaysTeam6Git\DDdaysTeam6\target\classes;C:\Users\madhu\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\madhu\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\madhu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\madhu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\madhu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\madhu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\madhu\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\madhu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\madhu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\madhu\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\madhu\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\madhu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\madhu\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\madhu\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\madhu\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\madhu\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\madhu\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\madhu\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\madhu\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\madhu\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\madhu\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\madhu\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\madhu\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\madhu\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\madhu\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\madhu\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\madhu\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\madhu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\madhu\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\madhu\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\madhu\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\madhu\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\madhu\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\madhu\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\madhu\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\madhu\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\madhu\.m2\repository\com\aventstack\extentreports\5.0.1\extentreports-5.0.1.jar;C:\Users\madhu\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\madhu\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\madhu\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\madhu\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\madhu\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\madhu\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\madhu\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\madhu\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\madhu\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\madhu\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\madhu\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\madhu\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\madhu\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\madhu\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\madhu\.m2\repository\mysql\mysql-connector-java\8.0.25\mysql-connector-java-8.0.25.jar;C:\Users\madhu\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\madhu\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\madhu\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\madhu\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.14.1\log4j-slf4j-impl-2.14.1.jar;C:\Users\madhu\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\madhu\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\madhu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_271\jre"/>
+    <property name="basedir" value="C:\workspace\DollarDaysTeam6Git\DDdaysTeam6"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\madhu\AppData\Local\Temp\surefire8613692033774575931\surefirebooter2574840768329623646.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="user.name" value="madhu"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\madhu\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\madhu\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="user.dir" value="C:\workspace\DollarDaysTeam6Git\DDdaysTeam6"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Maven\apache-maven-3.8.1\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\madhu\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="TC_verifyLoginPageTitle" classname="com.DollarDays.testCases.LoginPageTest" time="6.272">
+    <system-out><![CDATA[ chrome setup
+ chrome setup
+ chrome setup
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 30846
+Only local conneSctatriotinsn g aCrhe roalmleoDwerdi.ve
+r Pl91e.a0se. 4s4e7e2 .h1t0t1p (sa:f/5/2ac9h0rbof8m7e0d3r0iddv1e5r23.4c8h6rao1mcidu3ma.eo2r5g/c5sde7c6ucr9ityb--croenfss/idberarancthi-ohnsea dfosr/ 44su72gg@{e#s1ti46o2ns} )o on n kpeeopritn 9g 8C47hro
+OmneDlyri lvoerca sla fceon.ne
+ctions are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on ChproomeDrritv e3r6 6w00a
+sO nlsy tloacarl tcoenndec tsiounsc acree sasllfowuedl.ly
+P.lea
+se see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+Jul 20, 2021 10:23:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 20, 2021 10:23:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 20, 2021 10:23:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="TC_verifyLoginPageMandatoryfields" classname="com.DollarDays.testCases.LoginPageTest" time="0.211"/>
+  <testcase name="TC_verifyForgotEmailPasswordLink" classname="com.DollarDays.testCases.LoginPageTest" time="1.808"/>
+  <testcase name="TC_verifyCreateAccountButton" classname="com.DollarDays.testCases.LoginPageTest" time="0.503"/>
+  <testcase name="TC_logintoDD" classname="com.DollarDays.testCases.LoginPageTest" time="3.396"/>
+  <testcase name="TC_loginDDT[team6testing@gmail.com, password123, gmss t., Valid](1)" classname="com.DollarDays.testCases.LoginDataDriverTest" time="2.024"/>
+  <testcase name="TC_loginDDT[user123@gmail.com, pwd2, user 1, Valid](2)" classname="com.DollarDays.testCases.LoginDataDriverTest" time="3.098">
+    <failure message="Could not sign in to DollarDays with valid user user123@gmail.com and valid password pwd2. TestCase Failed. expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Could not sign in to DollarDays with valid user user123@gmail.com and valid password pwd2. TestCase Failed. expected [true] but found [false]
+	at com.DollarDays.testCases.LoginDataDriverTest.TC_loginDDT(LoginDataDriverTest.java:80)
+]]></failure>
+  </testcase>
+  <testcase name="TC_loginDDT[user3, pwd3, user 3, Invalid](3)" classname="com.DollarDays.testCases.LoginDataDriverTest" time="0.094"/>
+  <testcase name="TC_loginDDT[, , , Invalid](4)" classname="com.DollarDays.testCases.LoginDataDriverTest" time="1.098"/>
+  <testcase name="TC_loginDDT[user4, pwd4, user 4, Invalid](5)" classname="com.DollarDays.testCases.LoginDataDriverTest" time="3.076">
+    <system-out><![CDATA[WebPage is closed
+]]></system-out>
+  </testcase>
+  <testcase name="TC_loginDDT[user5, , , Invalid](6)" classname="com.DollarDays.testCases.LoginDataDriverTest" time="0.616"/>
+  <testcase name="TC_loginDDT[, pwd6, , Invalid](7)" classname="com.DollarDays.testCases.LoginDataDriverTest" time="0.795"/>
+  <testcase name="TC_loginDDT[srikanthtesting100@gmail.com, password123, srikanth s., Invalid](8)" classname="com.DollarDays.testCases.LoginDataDriverTest" time="3.408">
+    <failure message="Signed  in to DollarDays successfully with invalid user srikanthtesting100@gmail.com and invalid password password123. Testcase failed. expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Signed  in to DollarDays successfully with invalid user srikanthtesting100@gmail.com and invalid password password123. Testcase failed. expected [false] but found [true]
+	at com.DollarDays.testCases.LoginDataDriverTest.TC_loginDDT(LoginDataDriverTest.java:90)
+]]></failure>
+  </testcase>
+  <testcase name="TC_loginDDT[team6testing@gmail.com, password123, gmss t., Valid](9)" classname="com.DollarDays.testCases.LoginDataDriverTest" time="261.602">
+    <failure message="Could not sign in to DollarDays with valid user team6testing@gmail.com and valid password password123. TestCase Failed. expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Could not sign in to DollarDays with valid user team6testing@gmail.com and valid password password123. TestCase Failed. expected [true] but found [false]
+	at com.DollarDays.testCases.LoginDataDriverTest.TC_loginDDT(LoginDataDriverTest.java:71)
+]]></failure>
+    <system-out><![CDATA[WebPage is closed.
+NoSuchElementException  Proxy element for: DefaultElementLocator 'By.linkText: Sign In' This WebElement is not present/displayed. 
+NoSuchElementException  Proxy element for: DefaultElementLocator 'By.id: inputLoginUsername' This WebElement is not present/displayed. 
+NoSuchElementException  Proxy element for: DefaultElementLocator 'By.id: inputLoginPassword' This WebElement is not present/displayed. 
+NoSuchElementException  Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="aspnetForm"]/div[5]/div/div/div/div[2]/div/div[1]/div/div/div[4]/button' This WebElement is not present/displayed. 
+]]></system-out>
+  </testcase>
+  <testcase name="TC_Login" classname="com.DollarDays.testCases.HomePageAfterSigninTest" time="0.097"/>
+  <testcase name="TC_verifyUserHomePageTitle" classname="com.DollarDays.testCases.HomePageAfterSigninTest" time="0.01"/>
+  <testcase name="TC_CheckUserDropDownList" classname="com.DollarDays.testCases.HomePageAfterSigninTest" time="0.658"/>
+  <testcase name="TC_verifyUserDropDownUrl[Accounts](1)" classname="com.DollarDays.testCases.HomePageAfterSigninTest" time="0.074"/>
+  <testcase name="TC_verifyUserDropDownUrl[Order History](2)" classname="com.DollarDays.testCases.HomePageAfterSigninTest" time="4.29"/>
+  <testcase name="TC_verifyUserDropDownUrl[Favorites](3)" classname="com.DollarDays.testCases.HomePageAfterSigninTest" time="2.913"/>
+  <testcase name="TC_verifyUserDropDownUrl[Update Profile](4)" classname="com.DollarDays.testCases.HomePageAfterSigninTest" time="4.339"/>
+  <testcase name="TC_verifyUserDropDownUrl[Address Book](5)" classname="com.DollarDays.testCases.HomePageAfterSigninTest" time="5.516"/>
+  <testcase name="TC_verifyUserDropDownUrl[Wallet](6)" classname="com.DollarDays.testCases.HomePageAfterSigninTest" time="3.458"/>
+  <testcase name="TC_verifyUserDropDownUrl[Tax Exempt](7)" classname="com.DollarDays.testCases.HomePageAfterSigninTest" time="5.609"/>
+  <testcase name="TC_verifyUserDropDownUrl[Request a Quote](8)" classname="com.DollarDays.testCases.HomePageAfterSigninTest" time="5.122"/>
+  <testcase name="TC_verifyUserDropDownUrl[Contact Us](9)" classname="com.DollarDays.testCases.HomePageAfterSigninTest" time="4.807"/>
+  <testcase name="TC_verifyUserDropDownUrl[Sign Out](10)" classname="com.DollarDays.testCases.HomePageAfterSigninTest" time="5.154">
+    <system-out><![CDATA[NoSuchElementException  Proxy element for: DefaultElementLocator 'By.linkText: Sign Out' This WebElement is not present/displayed. 
+]]></system-out>
+  </testcase>
+</testsuite>

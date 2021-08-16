@@ -1,0 +1,27 @@
+10:14:28.669 [TestNG-tests-3] DEBUG DollarDays - Clicking Sign in Button.
+10:15:28.778 [TestNG-tests-3] WARN  DollarDays - NoSuchElementException  Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="aspnetForm"]/div[5]/div/div/div/div[2]/div/div[1]/div/div/div[4]/button' This WebElement is not present/displayed. 
+10:15:28.783 [TestNG-tests-3] INFO  DollarDays - Checking if user has signed in to dollardays WebPage
+10:15:28.884 [TestNG-tests-3] INFO  DollarDays - User is not Signed in
+10:15:28.885 [TestNG-tests-3] ERROR DollarDays - TC_loginDDT test failed.  java.lang.AssertionError: Could not sign in to DollarDays with valid user team6testing@gmail.com and valid password password123. TestCase Failed. expected [true] but found [false]
+10:15:31.014 [TestNG-tests-3] INFO  DollarDays - WebPage is closed
+10:23:09.875 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=91 in cache (valid until 11:07:53 20/07/2021 PDT)
+10:23:09.879 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome91=91.0.4472.101 in cache (valid until 10:07:53 21/07/2021 PDT)
+10:23:09.879 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+10:23:09.882 [TestNG-tests-1] TRACE io.github.bonigarcia.wdm.cache.CacheHandler - Checking if chromedriver exists in cache
+10:23:09.899 [TestNG-tests-1] TRACE io.github.bonigarcia.wdm.cache.CacheHandler - Filter cache by chromedriver -- input list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe, C:\Users\madhu\.cache\selenium\resolution.properties] -- output list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe] 
+10:23:09.900 [TestNG-tests-1] TRACE io.github.bonigarcia.wdm.cache.CacheHandler - Filter cache by 91.0.4472.101 -- input list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe] -- output list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe] 
+10:23:09.900 [TestNG-tests-1] TRACE io.github.bonigarcia.wdm.cache.CacheHandler - Filter cache by WIN -- input list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe] -- output list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe] 
+10:23:09.901 [TestNG-tests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 91.0.4472.101 found in cache
+10:23:09.904 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+10:23:09.914 [TestNG-tests-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=91 in cache (valid until 11:07:53 20/07/2021 PDT)
+10:23:09.915 [TestNG-tests-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome91=91.0.4472.101 in cache (valid until 10:07:53 21/07/2021 PDT)
+10:23:09.915 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+10:23:09.918 [TestNG-tests-2] TRACE io.github.bonigarcia.wdm.cache.CacheHandler - Checking if chromedriver exists in cache
+10:23:09.920 [TestNG-tests-2] TRACE io.github.bonigarcia.wdm.cache.CacheHandler - Filter cache by chromedriver -- input list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe, C:\Users\madhu\.cache\selenium\resolution.properties] -- output list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe] 
+10:23:09.920 [TestNG-tests-2] TRACE io.github.bonigarcia.wdm.cache.CacheHandler - Filter cache by 91.0.4472.101 -- input list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe] -- output list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe] 
+10:23:09.920 [TestNG-tests-2] TRACE io.github.bonigarcia.wdm.cache.CacheHandler - Filter cache by WIN -- input list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe] -- output list [C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe] 
+10:23:09.921 [TestNG-tests-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 91.0.4472.101 found in cache
+10:23:09.922 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\madhu\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+10:23:09.932 [TestNG-tests-3] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=91 in cache (valid until 11:07:53 20/07/2021 PDT)
+10:23:09.934 [TestNG-tests-3] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome91=91.0.4472.101 in cache (valid until 10:07:53 21/07/2021 PDT)
+10:23:09.934 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)

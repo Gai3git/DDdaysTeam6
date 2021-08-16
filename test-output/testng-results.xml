@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="27" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="424025" started-at="2021-08-13T22:52:42Z" finished-at="2021-08-13T22:59:46Z">
+    <groups>
+    </groups>
+    <test name="Validating User login" duration-ms="78260" started-at="2021-08-13T22:52:42Z" finished-at="2021-08-13T22:54:00Z">
+      <class name="com.DollarDays.testCases.LoginPageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.DollarDays.testCases.LoginPageTest@6581dc0a]" name="initialize" is-config="true" duration-ms="11786" started-at="2021-08-13T22:52:42Z" finished-at="2021-08-13T22:52:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="TC_verifyLoginPageTitle()[pri:0, instance:com.DollarDays.testCases.LoginPageTest@6581dc0a]" name="TC_verifyLoginPageTitle" duration-ms="14124" started-at="2021-08-13T22:52:54Z" description=" TestCase verifies LoginPage Title is displayed correctly." finished-at="2021-08-13T22:53:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_verifyLoginPageTitle -->
+        <test-method status="PASS" signature="TC_verifyLoginPageMandatoryfields()[pri:1, instance:com.DollarDays.testCases.LoginPageTest@6581dc0a]" name="TC_verifyLoginPageMandatoryfields" duration-ms="427" started-at="2021-08-13T22:53:09Z" description=" TestCase verifies Email Address and Password fields are mandatory in LoginPage." finished-at="2021-08-13T22:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_verifyLoginPageMandatoryfields -->
+        <test-method status="PASS" signature="TC_verifyForgotEmailPasswordLink()[pri:2, instance:com.DollarDays.testCases.LoginPageTest@6581dc0a]" name="TC_verifyForgotEmailPasswordLink" duration-ms="2558" started-at="2021-08-13T22:53:10Z" description=" TestCase verifies the navigation of Forgot password link ." finished-at="2021-08-13T22:53:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_verifyForgotEmailPasswordLink -->
+        <test-method status="PASS" signature="TC_verifyCreateAccountButton()[pri:3, instance:com.DollarDays.testCases.LoginPageTest@6581dc0a]" name="TC_verifyCreateAccountButton" duration-ms="12028" started-at="2021-08-13T22:53:14Z" description=" TestCase verifies functionality of CreateAccount button ." finished-at="2021-08-13T22:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_verifyCreateAccountButton -->
+        <test-method status="PASS" signature="TC_logintoDD()[pri:4, instance:com.DollarDays.testCases.LoginPageTest@6581dc0a]" name="TC_logintoDD" duration-ms="20354" started-at="2021-08-13T22:53:26Z" description="Testcase checks if the user is able to login successfully with valid username/password combination" finished-at="2021-08-13T22:53:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_logintoDD -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.DollarDays.testCases.LoginPageTest@6581dc0a]" name="teardown" is-config="true" duration-ms="378" started-at="2021-08-13T22:54:00Z" finished-at="2021-08-13T22:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.DollarDays.testCases.LoginPageTest -->
+    </test> <!-- Validating User login -->
+    <test name="Validating homePage After User is Signed in " duration-ms="165797" started-at="2021-08-13T22:52:42Z" finished-at="2021-08-13T22:55:28Z">
+      <class name="com.DollarDays.testCases.HomePageAfterSigninTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.DollarDays.testCases.HomePageAfterSigninTest@1800a575]" name="initialize" is-config="true" duration-ms="11265" started-at="2021-08-13T22:52:42Z" finished-at="2021-08-13T22:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="TC_Login()[pri:0, instance:com.DollarDays.testCases.HomePageAfterSigninTest@1800a575]" name="TC_Login" duration-ms="31346" started-at="2021-08-13T22:52:53Z" description="This testcase verifies user is able to login from home page with valid credentials." finished-at="2021-08-13T22:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Login -->
+        <test-method status="PASS" signature="TC_verifyUserHomePageTitle()[pri:1, instance:com.DollarDays.testCases.HomePageAfterSigninTest@1800a575]" name="TC_verifyUserHomePageTitle" duration-ms="15" started-at="2021-08-13T22:53:28Z" description="This testcase verifies the Home Page Title is correct after user signs in." depends-on-methods="com.DollarDays.testCases.HomePageAfterSigninTest.TC_Login" finished-at="2021-08-13T22:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_verifyUserHomePageTitle -->
+        <test-method status="PASS" signature="TC_CheckUserDropDownList()[pri:2, instance:com.DollarDays.testCases.HomePageAfterSigninTest@1800a575]" name="TC_CheckUserDropDownList" duration-ms="8816" started-at="2021-08-13T22:53:33Z" description="This testcase verifies the user dropdown list displays expected values." depends-on-methods="com.DollarDays.testCases.HomePageAfterSigninTest.TC_Login" finished-at="2021-08-13T22:53:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_CheckUserDropDownList -->
+        <test-method name="TC_verifyUserDropDownUrl" signature="TC_verifyUserDropDownUrl(java.lang.String)[pri:3, instance:com.DollarDays.testCases.HomePageAfterSigninTest@1800a575]" status="PASS" duration-ms="14763" finished-at="2021-08-13T22:54:03Z" started-at="2021-08-13T22:53:48Z" depends-on-methods="com.DollarDays.testCases.HomePageAfterSigninTest.TC_Login" data-provider="getuserlinks" description="This testcase verifies the the navigation of links displayed in the user list .">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Accounts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_verifyUserDropDownUrl -->
+        <test-method name="TC_verifyUserDropDownUrl" signature="TC_verifyUserDropDownUrl(java.lang.String)[pri:3, instance:com.DollarDays.testCases.HomePageAfterSigninTest@1800a575]" status="PASS" duration-ms="13227" finished-at="2021-08-13T22:54:17Z" started-at="2021-08-13T22:54:04Z" depends-on-methods="com.DollarDays.testCases.HomePageAfterSigninTest.TC_Login" data-provider="getuserlinks" description="This testcase verifies the the navigation of links displayed in the user list .">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Order History]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_verifyUserDropDownUrl -->
+        <test-method name="TC_verifyUserDropDownUrl" signature="TC_verifyUserDropDownUrl(java.lang.String)[pri:3, instance:com.DollarDays.testCases.HomePageAfterSigninTest@1800a575]" status="PASS" duration-ms="12684" finished-at="2021-08-13T22:54:31Z" started-at="2021-08-13T22:54:18Z" depends-on-methods="com.DollarDays.testCases.HomePageAfterSigninTest.TC_Login" data-provider="getuserlinks" description="This testcase verifies the the navigation of links displayed in the user list .">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Favorites]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_verifyUserDropDownUrl -->
+        <test-method name="TC_verifyUserDropDownUrl" signature="TC_verifyUserDropDownUrl(java.lang.String)[pri:3, instance:com.DollarDays.testCases.HomePageAfterSigninTest@1800a575]" status="PASS" duration-ms="3839" finished-at="2021-08-13T22:54:36Z" started-at="2021-08-13T22:54:32Z" depends-on-methods="com.DollarDays.testCases.HomePageAfterSigninTest.TC_Login" data-provider="getuserlinks" description="This testcase verifies the the navigation of links displayed in the user list .">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Update Profile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_verifyUserDropDownUrl -->
+        <test-method name="TC_verifyUserDropDownUrl" signature="TC_verifyUserDropDownUrl(java.lang.String)[pri:3, instance:com.DollarDays.testCases.HomePageAfterSigninTest@1800a575]" status="PASS" duration-ms="2977" finished-at="2021-08-13T22:54:40Z" started-at="2021-08-13T22:54:37Z" depends-on-methods="com.DollarDays.testCases.HomePageAfterSigninTest.TC_Login" data-provider="getuserlinks" description="This testcase verifies the the navigation of links displayed in the user list .">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Address Book]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_verifyUserDropDownUrl -->
+        <test-method name="TC_verifyUserDropDownUrl" signature="TC_verifyUserDropDownUrl(java.lang.String)[pri:3, instance:com.DollarDays.testCases.HomePageAfterSigninTest@1800a575]" status="PASS" duration-ms="2983" finished-at="2021-08-13T22:54:52Z" started-at="2021-08-13T22:54:49Z" depends-on-methods="com.DollarDays.testCases.HomePageAfterSigninTest.TC_Login" data-provider="getuserlinks" description="This testcase verifies the the navigation of links displayed in the user list .">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wallet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_verifyUserDropDownUrl -->
+        <test-method name="TC_verifyUserDropDownUrl" signature="TC_verifyUserDropDownUrl(java.lang.String)[pri:3, instance:com.DollarDays.testCases.HomePageAfterSigninTest@1800a575]" status="PASS" duration-ms="3740" finished-at="2021-08-13T22:54:57Z" started-at="2021-08-13T22:54:53Z" depends-on-methods="com.DollarDays.testCases.HomePageAfterSigninTest.TC_Login" data-provider="getuserlinks" description="This testcase verifies the the navigation of links displayed in the user list .">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tax Exempt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_verifyUserDropDownUrl -->
+        <test-method name="TC_verifyUserDropDownUrl" signature="TC_verifyUserDropDownUrl(java.lang.String)[pri:3, instance:com.DollarDays.testCases.HomePageAfterSigninTest@1800a575]" status="PASS" duration-ms="8001" finished-at="2021-08-13T22:55:07Z" started-at="2021-08-13T22:54:59Z" depends-on-methods="com.DollarDays.testCases.HomePageAfterSigninTest.TC_Login" data-provider="getuserlinks" description="This testcase verifies the the navigation of links displayed in the user list .">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Request a Quote]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_verifyUserDropDownUrl -->
+        <test-method name="TC_verifyUserDropDownUrl" signature="TC_verifyUserDropDownUrl(java.lang.String)[pri:3, instance:com.DollarDays.testCases.HomePageAfterSigninTest@1800a575]" status="PASS" duration-ms="3486" finished-at="2021-08-13T22:55:12Z" started-at="2021-08-13T22:55:08Z" depends-on-methods="com.DollarDays.testCases.HomePageAfterSigninTest.TC_Login" data-provider="getuserlinks" description="This testcase verifies the the navigation of links displayed in the user list .">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Contact Us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_verifyUserDropDownUrl -->
+        <test-method name="TC_verifyUserDropDownUrl" signature="TC_verifyUserDropDownUrl(java.lang.String)[pri:3, instance:com.DollarDays.testCases.HomePageAfterSigninTest@1800a575]" status="PASS" duration-ms="7375" finished-at="2021-08-13T22:55:25Z" started-at="2021-08-13T22:55:18Z" depends-on-methods="com.DollarDays.testCases.HomePageAfterSigninTest.TC_Login" data-provider="getuserlinks" description="This testcase verifies the the navigation of links displayed in the user list .">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sign Out]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_verifyUserDropDownUrl -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.DollarDays.testCases.HomePageAfterSigninTest@1800a575]" name="teardown" is-config="true" duration-ms="193" started-at="2021-08-13T22:55:27Z" finished-at="2021-08-13T22:55:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.DollarDays.testCases.HomePageAfterSigninTest -->
+    </test> <!-- Validating homePage After User is Signed in  -->
+    <test name="Validating User login datadriven" duration-ms="424024" started-at="2021-08-13T22:52:42Z" finished-at="2021-08-13T22:59:46Z">
+      <class name="com.DollarDays.testCases.LoginDataDriverTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.DollarDays.testCases.LoginDataDriverTest@64bce832]" name="initialize" is-config="true" duration-ms="11881" started-at="2021-08-13T22:52:42Z" finished-at="2021-08-13T22:52:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="TC_loginDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.DollarDays.testCases.LoginDataDriverTest@64bce832]" name="TC_loginDDT" duration-ms="29388" started-at="2021-08-13T22:52:56Z" description="This Testcase checks for logging in functionality using valid and invalid username/password combinations" data-provider="LoginData" finished-at="2021-08-13T22:53:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[team6testing@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[gmss t.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_loginDDT -->
+        <test-method status="FAIL" signature="TC_loginDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.DollarDays.testCases.LoginDataDriverTest@64bce832]" name="TC_loginDDT" duration-ms="33370" started-at="2021-08-13T22:53:28Z" description="This Testcase checks for logging in functionality using valid and invalid username/password combinations" data-provider="LoginData" finished-at="2021-08-13T22:54:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[user 1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Could not sign in to DollarDays with valid user user123@gmail.com and valid password pwd2. TestCase Failed. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Could not sign in to DollarDays with valid user user123@gmail.com and valid password pwd2. TestCase Failed. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at com.DollarDays.testCases.LoginDataDriverTest.TC_loginDDT(LoginDataDriverTest.java:80)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_loginDDT -->
+        <test-method status="PASS" signature="TC_loginDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.DollarDays.testCases.LoginDataDriverTest@64bce832]" name="TC_loginDDT" duration-ms="2955" started-at="2021-08-13T22:54:02Z" description="This Testcase checks for logging in functionality using valid and invalid username/password combinations" data-provider="LoginData" finished-at="2021-08-13T22:54:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[user 3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_loginDDT -->
+        <test-method status="PASS" signature="TC_loginDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.DollarDays.testCases.LoginDataDriverTest@64bce832]" name="TC_loginDDT" duration-ms="1924" started-at="2021-08-13T22:54:12Z" description="This Testcase checks for logging in functionality using valid and invalid username/password combinations" data-provider="LoginData" finished-at="2021-08-13T22:54:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_loginDDT -->
+        <test-method status="PASS" signature="TC_loginDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.DollarDays.testCases.LoginDataDriverTest@64bce832]" name="TC_loginDDT" duration-ms="2374" started-at="2021-08-13T22:54:15Z" description="This Testcase checks for logging in functionality using valid and invalid username/password combinations" data-provider="LoginData" finished-at="2021-08-13T22:54:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[user 4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_loginDDT -->
+        <test-method status="PASS" signature="TC_loginDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.DollarDays.testCases.LoginDataDriverTest@64bce832]" name="TC_loginDDT" duration-ms="835" started-at="2021-08-13T22:54:19Z" description="This Testcase checks for logging in functionality using valid and invalid username/password combinations" data-provider="LoginData" finished-at="2021-08-13T22:54:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_loginDDT -->
+        <test-method status="PASS" signature="TC_loginDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.DollarDays.testCases.LoginDataDriverTest@64bce832]" name="TC_loginDDT" duration-ms="508" started-at="2021-08-13T22:54:21Z" description="This Testcase checks for logging in functionality using valid and invalid username/password combinations" data-provider="LoginData" finished-at="2021-08-13T22:54:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_loginDDT -->
+        <test-method status="FAIL" signature="TC_loginDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.DollarDays.testCases.LoginDataDriverTest@64bce832]" name="TC_loginDDT" duration-ms="10032" started-at="2021-08-13T22:54:22Z" description="This Testcase checks for logging in functionality using valid and invalid username/password combinations" data-provider="LoginData" finished-at="2021-08-13T22:54:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[srikanthtesting100@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[srikanth s.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Signed  in to DollarDays successfully with invalid user srikanthtesting100@gmail.com and invalid password password123. Testcase failed. expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Signed  in to DollarDays successfully with invalid user srikanthtesting100@gmail.com and invalid password password123. Testcase failed. expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at com.DollarDays.testCases.LoginDataDriverTest.TC_loginDDT(LoginDataDriverTest.java:90)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_loginDDT -->
+        <test-method status="FAIL" signature="TC_loginDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.DollarDays.testCases.LoginDataDriverTest@64bce832]" name="TC_loginDDT" duration-ms="305787" started-at="2021-08-13T22:54:34Z" description="This Testcase checks for logging in functionality using valid and invalid username/password combinations" data-provider="LoginData" finished-at="2021-08-13T22:59:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[team6testing@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[gmss t.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Could not sign in to DollarDays with valid user team6testing@gmail.com and valid password password123. TestCase Failed. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Could not sign in to DollarDays with valid user team6testing@gmail.com and valid password password123. TestCase Failed. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at com.DollarDays.testCases.LoginDataDriverTest.TC_loginDDT(LoginDataDriverTest.java:71)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_loginDDT -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.DollarDays.testCases.LoginDataDriverTest@64bce832]" name="teardown" is-config="true" duration-ms="4168" started-at="2021-08-13T22:59:42Z" finished-at="2021-08-13T22:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.DollarDays.testCases.LoginDataDriverTest -->
+    </test> <!-- Validating User login datadriven -->
+  </suite> <!-- Suite -->
+</testng-results>

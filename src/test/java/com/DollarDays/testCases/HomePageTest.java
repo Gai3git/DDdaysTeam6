@@ -31,6 +31,7 @@ public class HomePageTest extends BaseClass
 		driver =initializeDriver();
 		hp= new HomePage(driver);
 	}
+	
 	@AfterClass
 	public void teardown()
 	{
